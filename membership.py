@@ -18,11 +18,14 @@
 #     print(f"{student} is not in the grade list")
 
 
-
+import modules
 
 email = "smhasnats@gmail.com"
 
 if "@" in email and "." in email:
-    print("Valid email address")
+    print("Valid email address") 
 else:
     print("Invalid email address")
+
+
+print(modules.square(5))
